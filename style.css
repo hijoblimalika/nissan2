@@ -1,0 +1,402 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    min-height: 500vh;
+}
+.nav__img {
+    height: 100vh;
+    background-image: url('./nav__1.webp');
+    background-size: cover;
+}
+.nav__img__text{
+    display: flex;
+    margin-left: 28%;
+    padding-top: 2%;
+    color: #fff;
+
+}
+.nav__img__text img{
+    width: 120px;
+    height: 90px;
+    transform: translateX(-360px) translateY(-25px);
+}
+.nav__img__text i {
+    margin-left: 22px;
+}
+.nav__img__text button{
+    width: 120px;
+    height: 40px;
+    transform: translateY(-10px);
+    background: none;
+    border: 3px solid #fff;
+    color: #fff;
+    
+}
+.home__modal{
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: #efefef;
+    transition: .3s;
+    overflow: hidden;
+}
+.home__show{
+    height: 150vh;
+}
+.about__modal{
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: #efefef;
+    transition: .3s;
+    overflow: hidden;
+}
+.about__show{
+    height: 120vh;
+}
+.about__nav{
+    display: flex;
+}
+.about__nav h1{
+    font-size: 30px;
+    margin-top: 2%;
+    font-weight: 100;
+    margin-left: 5%;
+}
+.about__nav button{
+    width: 220px;
+    height: 7vh;
+    background: crimson;
+    font-size: 17px;
+    color: #fff;
+    border: none;
+    margin-left: 55%;
+    margin-top: 25px;
+}
+.contact__modal{
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: #efefef;
+    transition: .3s;
+    overflow: hidden;
+}
+.contact__show{
+    height: 200px;
+}
+.search__modal{
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: #00e04b;
+    font-size: 10vw;
+    transition: .3s;
+    overflow: hidden;
+}
+.search__show{
+    height: 200px;
+}
+.collection{
+    display: flex;
+    margin-left: 30%;
+    list-style: none;
+}
+
+.item{
+    margin-left: 8%;
+    margin-top: 20px;
+}
+.item_button button{
+    margin-left: 20%;
+    margin-top: 10px;
+    width: 250px;
+    height: 7vh;
+    background-color: black;
+    color: #fff;
+
+}
+.vehi{
+    margin: 0;
+    transform: translateX(-300px) translateY(18px);
+}
+.soz__ucun{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.soz__ucun p{
+    margin-top: 20px;
+}
+.rasmlar{
+    width: 320px;
+    height: 42vh;
+    /* border: 3px solid red; */
+    /* margin-left: 20%; */
+    /* margin-top: 30%; */
+    transform: translateY(-300px)translateX(150px);
+    
+}
+.guruh1{
+    display: flex;
+}
+.guruh2{
+    display: flex;
+}
+.rasmlar img{
+    width: 250px;
+    height:150px;
+    margin-left: 60%;
+}
+.rasmlar p{
+    margin-left: 185px;
+    font-size: 12px;
+}
+.rasmlar b{
+    margin-left: 185px;
+    font-size: 13px;
+
+
+}
+.pp{
+    font-size: 2px;
+   transform: translateX(130px)translateY(-30px);
+   color: gray;
+}
+.rog{
+    margin-left: 205px;
+    font-size: 13px;
+}
+.star{
+    margin-left: 205px;
+    font-size: 13px;
+}
+.ppp{
+    font-size: 2px;
+   transform: translateX(130px)translateY(-30px);
+   color: gray;
+}
+.rasmlar img:hover{
+    background: #fff;
+    border-bottom: 6px solid red;
+    cursor: pointer;
+}
+.shop__buy{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+
+}
+.wop{
+    width: 40%;
+    height: 100vh;
+    margin-top: 3%;
+}
+.buy{
+    width: 60%;
+    height: 100vh;
+    margin-top: 3%;
+
+}
+.kucukca{
+    font-size: 17px;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+.wop1{
+    display: flex;
+}
+.wop2{
+    display: flex;
+}
+.nastroyka{
+    width: 150px;
+    height: 90px;
+    margin-left: 15%;
+    margin-top: 10%;
+    background-color: #fff;
+}
+.inventory{
+    width: 150px;
+    height: 90px;
+    margin-left: 4%;
+    margin-top: 10%;
+    background-color: #fff;
+
+}
+.nastroyka img{
+    width: 40px;
+    height:30px;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+.inventory img{
+    width: 40px;
+    height:30px;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+.nastroyka p{
+    font-size: 12px;
+    margin-left: 25%;
+}
+.inventory p{
+    font-size: 12px;
+    margin-left: 22%;
+}
+.offers{
+    width: 150px;
+    height: 90px;
+    margin-left: 15%;
+    margin-top: 10%;
+    background-color: #fff;
+
+}
+.payments{
+    width: 150px;
+    height: 90px;
+    margin-left: 4%;
+    margin-top: 10%;
+    background-color: #fff;
+
+}
+.offers img{
+    width: 40px;
+    height:30px;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+.payments img{
+    width: 40px;
+    height:30px;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+.offers p{
+    font-size: 12px;
+    margin-left: 22%;
+}
+.payments p{
+    font-size: 12px;
+    margin-left: 12%;
+}
+.ite{
+    list-style: none;
+    transform: translateY(170px)translateX(-320px);
+}
+.eti{
+    list-style: none;
+    transform: translateY(18px)translateX(-150px);
+}
+.buy{
+    display: flex;
+}
+.qq{
+    width: 280px;
+    height: 280px;
+    margin-top: 5%;
+}
+.ww{
+    width: 280px;
+    height: 280px;
+    margin-top: 5%;
+
+}
+.ee {
+    width: 280px;
+    height: 280px;
+    margin-top: 5%;
+
+}
+.qq img{
+    margin-left: 5%;
+}
+.qq b{
+    margin-left: 5%;
+}
+.ww img{
+    margin-left: 5%;
+
+}
+.ee img{
+    margin-left: 5%;
+    margin-top: 5%;
+
+}
+.ww b{
+    margin-left: 5%;
+ 
+}
+.qq p{
+    font-size: 15px;
+    color: gray;
+}
+.ww p{
+    font-size: 15px;
+    color: gray;
+}
+.ee p{
+    font-size: 15px;
+    color: gray;
+}
+.bllb{
+    width: 220px;
+    height: 8vh;
+    background: black;
+    color: #fff;
+    transform: translateY(130px) translateX(-500px);
+}
+.contact__modal{
+    display: flex;
+}
+.cose{
+    font-weight: 100;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.bjbj{
+    width: 150px;
+    height: 5vh;
+    margin-left: 8%;
+    margin-top: 5%;
+
+}
+.evs{
+    display: block;
+}
+.evs h1{
+    font-size: 50px;
+    font-weight: 100;
+    margin-left: 105px;
+    margin-top: 50px;
+    color: #fff;
+}
+.evs p{
+    font-size: 18px;
+    margin-left: 105px;
+    margin-top: 10px;
+    color: #fff;
+}
+.evs button{
+    width: 217px;
+    height: 52px;
+    background: #c3002f;
+    font-size: 14px;
+    color: #fff;
+    margin-left: 105px;
+    margin-top: 40px;
+    border: none;
+}
+.yoqol{
+    display: none;
+}

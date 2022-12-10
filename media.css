@@ -1,0 +1,70 @@
+@media screen and (max-width:1000px){
+    .nav__img__text b{
+        width: 900%;
+        transform: translateX(-100px);
+    }
+    .nav__img__text i{
+        /* display: none; */
+        transform: translateX(-25px);
+    }
+    .nav__img__text p{
+        transform: translateX(-120px);
+        /* display: none; */
+    }
+    .nav__img__text button{
+        width: 500px;
+        height: 50px;
+        transform: translateX(-50px);
+        display: none;
+    }
+    .tomisa{
+        display: none;
+    }
+    .en_navbari{
+        display: block;
+    }
+    .nav__img__text img{
+        transform: translateX(-265px)translateY(-25px);
+    }
+}
+@media screen and (max-width:821px){
+    .nav__img__text b{
+        width: 100%;
+        transform: translateX(-200px);
+    }
+    .nav__img__text img{
+        /* transform: translateX(-55px); */
+        display: none;
+    }
+}
+@media screen and (max-width:600px){
+    .nav__img__text b{
+        display: none;
+    }
+    .nav__img__text p{
+        display: none;
+    }
+    .yoqol{
+        display: block;
+        display: flex;
+    }
+    .yoqol h3{
+        transform: translateX(-140px);
+
+    }
+    .yoqol i{
+
+        transform: translateX(205px);
+    }
+    .setting{
+        display: block;
+    }
+    .menu__icon{
+        display: block;
+    }
+    .evs{
+        margin-top: 30%;
+    }
+  
+}
+
