@@ -400,3 +400,213 @@ body{
 .yoqol{
     display: none;
 }
+.nav_22{
+    width: 100%;
+    height: 100vh;
+    background-color: #e8e8e8;
+    margin-top: 20px;
+}
+.nav_22 h3{
+    padding-top: 2%;
+    margin-left: 10%;
+    font-weight: 100;
+}
+.nav_02 {
+    display: flex;
+    margin-left: 5%;
+    margin-top: 3%;
+    font-weight: 200;
+}
+.nav_02 h2{
+    margin-left: 8%;
+}
+.nav_02 span{
+    width: 100px;
+    height: 5vh;
+    background: #949191;
+    font-size: 15px;
+    border-radius: 50%;
+}
+.hov{
+    width: 225px;
+    height: 1vh;
+    background: black;
+    margin-left: 175px;
+    margin-top: 1%;
+}
+.nav_22 hr{
+    width: 65%;
+    margin-left: 25%;
+}
+.nav_03{
+    display: flex;
+    margin-left: 10%;
+
+}
+.nav_03 img{
+    width: 200px;
+    height: 130px;
+    margin-left: 80px
+}
+.jinnica{
+    font-weight: 800;
+    margin-left: 50px;
+
+}
+.paxmoq{
+    font-size: 12px;
+    color: grey;
+    margin-left: 50px;
+
+}
+.axmoq{
+    margin-left: 180px;
+    transform: translateY(-35px);
+    font-size: 12px;
+}
+.nav_03_1:hover{
+    background: #fff;
+    border-bottom: 6px solid red;
+    cursor: pointer;
+}
+.nav_03_2:hover{
+    background: #fff;
+    border-bottom: 6px solid red;
+    cursor: pointer;
+}
+.nav_03_3:hover{
+    background: #fff;
+    border-bottom: 6px solid red;
+    cursor: pointer;
+}
+.nav_03_4:hover{
+    background: #fff;
+    border-bottom: 6px solid red;
+    cursor: pointer;
+}
+.nav_04 img{
+    width: 200px;
+    height: 130px;
+    margin-left: 80px;
+}
+.nav_04{
+    display: flex;
+    margin-left: 220px;
+}
+.nav_04_1:hover{
+    background: #fff;
+    border-bottom: 6px solid red;
+    cursor: pointer;
+}
+.nav_04_2:hover{
+    background: #fff;
+    border-bottom: 6px solid red;
+    cursor: pointer;
+}
+.nav_04_3:hover{
+    background: #fff;
+    border-bottom: 6px solid red;
+    cursor: pointer;
+}
+.nav_04_4:hover{
+    background: #fff;
+    border-bottom: 6px solid red;
+    cursor: pointer;
+}
+.nav_33{
+    width: 100%;
+    height: 40vh;
+    background: #fff;
+    display: flex;
+    /* margin-left: 150px; */
+    margin-top: 5%;
+}
+.nav_33_1{
+    width: 250px;
+    height: 100px;
+    border: 2px solid #b9b8b8;
+    margin-left: 80px;
+}
+.nav_33_2{
+    width: 250px;
+    height: 100px;
+    border: 2px solid #b9b8b8;
+    margin-left: 50px;
+
+}
+.nav_33_3{
+    width: 250px;
+    height: 100px;
+    border: 2px solid #b9b8b8;
+    margin-left: 80px;
+
+}
+.nav_33_4{
+    width: 250px;
+    height: 100px;
+    border: 2px solid #b9b8b8;
+    margin-left: 80px;
+
+}
+.nav_33 img{
+    width: 50px;
+    height: 40px;
+    margin-left: 35%;
+    margin-top: 5%;
+}
+.nav_33 p{
+    font-size: 15px;
+    margin-left: 50px;
+}
+.nav_33_1:hover{
+    background: red;
+    cursor: pointer;
+    border: none;
+}
+.nav_33_2:hover{
+    background: red;
+    cursor: pointer;
+    border: none;
+}
+.nav_33_3:hover{
+    background: red;
+    cursor: pointer;
+    border: none;
+}
+.nav_33_4:hover{
+    background: red;
+    cursor: pointer;
+    border: none;
+}
+.nav_44{
+    width: 100%;
+    height: 100vh;
+    background-image: url('./nav_44_katta.webp');
+    background-size: cover;
+}
+.nav_44_1 p{
+    padding-top: 70px;
+    font-weight: 600;
+    margin-left: 200px;
+}
+.nav_44_1 h1{
+    padding-top: 20px;
+    font-size: 50px;
+    font-weight: 100;
+    margin-left: 190px;
+
+}
+.lorrem{
+    width: 35%;
+    font-weight: 100;
+    transform: translateY(-50px);
+}
+.nav_44_1 button{
+    width: 235px;
+    height: 52px;
+    background: #C3002f;
+    color: #fff;
+    font-size: 17px;
+    border: none;
+    margin-left: 200px;
+}
