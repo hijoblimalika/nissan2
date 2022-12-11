@@ -115,7 +115,7 @@
         transform: translateX(-250px);
     }
 }
-@media screen and (max-width:408px){
+@media screen and (max-width:447px){
     .nav_03_3{
         display: none;
     }
