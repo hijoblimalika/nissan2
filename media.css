@@ -115,5 +115,25 @@
         transform: translateX(-250px);
     }
 }
+@media screen and (max-width:408px){
+    .nav_03_3{
+        display: none;
+    }
+    .nav_04_3{
+        display: none;
+    }
+    .nav__img{
+        width: 200%;
+        /* margin-left: 45%; */
+    }
+    .nav__img__text i{
+     display: none;
+    }
+    .yoqol i{
+        font-size: 25px;
+        margin-left: 105px;
+        display: block;
+    }
+}
 
 
